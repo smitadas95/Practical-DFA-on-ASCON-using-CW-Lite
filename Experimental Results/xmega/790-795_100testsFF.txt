@@ -1,0 +1,617 @@
+Glitch parameters:
+
+scope.io.hs2 = "glitch"
+scope.glitch.clk_src = "clkgen"
+scope.glitch.width = 3
+scope.glitch.offset = 2.0
+scope.glitch.trigger_src="ext_single"
+scope.glitch.repeat = 1
+scope.glitch.output = "clock_xor"
+scope.glitch.ext_offset=0
+scope.clock.adc_src = "clkgen_x1"
+scope.clock.freq = 10000000
+
+
+We obtained the following results below for 100 no. of tests in the glitch location range 790-795, for the "fixed register fault" at R2 register, same fixed fault appeared 97 times in the R2 register.
+
+Glitch Test 1:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 2:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 3:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 4:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 5:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 6:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: 60f74bcff763d7ed8143af8af55c4a156fb78747d265d6e62557cb074997540bf5e84325a5183822
+Glitch Test 7:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 8:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 9:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 10:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 11:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 12:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 13:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 14:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 15:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 16:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 17:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 18:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 19:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 20:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 21:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 22:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 23:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 24:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 25:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 26:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 27:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 28:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 29:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 30:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 31:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 32:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 33:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 34:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 35:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 36:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 37:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 38:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 39:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 40:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 41:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 42:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 43:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 44:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 45:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 46:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 47:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 48:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 49:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 50:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 51:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 52:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 53:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 54:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 55:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 56:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 57:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 58:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 59:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 60:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 61:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 62:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 63:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 64:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 65:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 66:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 67:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 68:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 69:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 70:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 71:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 72:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 73:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 74:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 75:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 76:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 77:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 78:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 79:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 80:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: 60f74bcff763d7ed8143af8af55c4a156fb78747d265d6e62557cb074997540bf5e84325a5183822
+Glitch Test 81:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 82:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 83:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 84:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 85:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 86:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 87:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: 60f74bcff763d7ed8143af8af55c4a156fb78747d265d6e62557cb074997540bf5e84325a5183822
+Glitch Test 88:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 89:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 90:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 91:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 92:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 93:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 94:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 95:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 96:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 97:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 98:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 99:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+Glitch Test 100:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 790:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: e0f74bcff763d7aeb143af8af55c4a0cdfb78747d265d6bd9557cb0749975450f5e84325a5183822
+

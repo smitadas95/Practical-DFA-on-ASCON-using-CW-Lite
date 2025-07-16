@@ -1,0 +1,78 @@
+Glitch parameters:
+
+scope.io.hs2 = "glitch"
+scope.glitch.clk_src = "clkgen"
+scope.glitch.width = 3
+scope.glitch.offset = 2.0
+scope.glitch.trigger_src="ext_single"
+scope.glitch.repeat = 1
+scope.glitch.output = "clock_xor"
+scope.glitch.ext_offset=0
+scope.clock.adc_src = "clkgen_x1"
+scope.clock.freq = 10000000
+
+
+
+We obtained below for 10 no. of tests in the glitch location range 720-725, the fault occurred at R3 register.
+
+
+Glitch Test 1:  20%
+ 1/5 [00:00<00:01,  2.50it/s]
+
+ Glitch at 721:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: f8e1634ef763d7cea955af8bf55c4a30c7b787c6d265d6c18d57e3074997542ca5fe6ba4a5183822
+Glitch Test 2:  20%
+ 1/5 [00:00<00:01,  2.51it/s]
+
+ Glitch at 721:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: f8a373eff763d7cea957af8af55c4a30c7b78747d265d6c18d17e3074997542ca5bc7b05a5183822
+Glitch Test 3:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 720:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: a8b75beff763d7cee943af8af55c4a3087b78747d265d6c1cd17cb074997542cf5a85305a5183822
+Glitch Test 4:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 720:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: a8f54b4ef763d7cee941af8bf55c4a3087b787c6d265d6c1cd57cb074997542cf5ea43a4a5183822
+Glitch Test 5:  20%
+ 1/5 [00:00<00:01,  2.50it/s]
+
+ Glitch at 721:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: f8e1634ef763d7cea955af8bf55c4a30c7b787c6d265d6c18d57e3074997542ca5fe6ba4a5183822
+Glitch Test 6:  20%
+ 1/5 [00:11<00:45, 11.35s/it]
+
+ Glitch at 721:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: f8e1634ef763d7cea955af8bf55c4a30c7b787c6d265d6c18d57e3074997542ca5fe6ba4a5183822
+Glitch Test 7:  20%
+ 1/5 [00:00<00:01,  2.52it/s]
+
+ Glitch at 721:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: f8e1634ef763d7cea955af8bf55c4a30c7b787c6d265d6c18d57e3074997542ca5fe6ba4a5183822
+Glitch Test 8:  20%
+ 1/5 [00:00<00:01,  2.50it/s]
+
+ Glitch at 721:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: f8e1634ef763d7cea955af8bf55c4a30c7b787c6d265d6c18d57e3074997542ca5fe6ba4a5183822
+Glitch Test 9:  20%
+ 1/5 [00:11<00:45, 11.30s/it]
+
+ Glitch at 721:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: f8e1634ef763d7cea955af8bf55c4a30c7b787c6d265d6c18d57e3074997542ca5fe6ba4a5183822
+Glitch Test 10:   0%
+ 0/5 [00:00<?, ?it/s]
+
+ Glitch at 720:
+   Original tag: a8f74bcff763d7cee943af8af55c4a3087b78747d265d6c1cd57cb074997542cf5e84325a5183822
+   Glitched tag: fa1333e459cad00ab44815e68ffe25091950c00ab9e09e6a1b30b60971305b4bb220c560f01255df

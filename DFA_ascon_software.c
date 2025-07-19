@@ -125,7 +125,7 @@ void print_hex_as_binary(const unsigned char *hex) {
     while (*hex) {
         unsigned int byte;
         sscanf((const char *)hex, "%2x", &byte);  // Read two hex chars as a byte
-        for (int i = 7; i >= 0; i--) {            // Print each bit (MSB to LSB)
+        for (int i = 7; i >= 0; i--) {            
             printf("%c", (byte & (1 << i)) ? '1' : '0');
             printf(" ");
             

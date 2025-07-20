@@ -140,25 +140,6 @@ uint8_t ascon(uint8_t* data, uint8_t dlen) {
     }
 }
 
-//Below code for the decryption purpose....................................................
-    /*if (flags & RUN_DEC) {
-    int result;
-    mlen = clen - CRYPTO_ABYTES;
-    len = LENGTH(clen) * sizeof(*m);
-    if (m) free(m);
-    m = malloc(len);
-
-    //trigger_high();
-    result = crypto_aead_decrypt(m, &mlen, NULL, c, clen, a, alen, n, k);
-    //trigger_low();
-
-    data_out[0] = result;
-    len = (len < RESP_LEN - 1) ? len : RESP_LEN - 1;
-    if (result == 0) memcpy(data_out + 1, m, len);
-    if ((flags & OMIT_RESULT) == 0) simpleserial_put('r', RESP_LEN, data_out);
-  }
-  */
-
   return 0x00;
 }
 
